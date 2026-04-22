@@ -10,5 +10,4 @@ A secure web-based examination portal built using the MERN stack to conduct, man
 - React.js
 - Node.js
 
-# Repository Status
-Project initialization phase. 
+
