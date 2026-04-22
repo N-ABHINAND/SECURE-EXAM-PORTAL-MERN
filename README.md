@@ -1,10 +1,10 @@
-# Secure Examination Portal (MERN Stack)
+#🟢 Secure Examination Portal (MERN Stack)
 
-## Project Overview
+## 🚩Project Overview
 A secure web-based examination portal built using the MERN stack to conduct, manage, and evaluate online examinations with role-based access.
 
 
-# Tech Stack
+# 🚩Tech Stack
 - MongoDB
 - Express.js
 - React.js
