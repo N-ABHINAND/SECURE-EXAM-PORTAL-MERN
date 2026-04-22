@@ -1,15 +1,19 @@
 {
-  "name": "secure-exam-portal",
+  "name": "exam-portal-frontend",
   "version": "1.0.0",
   "private": true,
-  "description": "Secure Exam Portal (React + Express + MongoDB)",
-  "scripts": {
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "npm run dev --prefix backend",
-    "client": "npm run dev --prefix frontend",
-    "install-all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.10"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
